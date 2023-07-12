@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Montserrat:wght@400;500;700&family=Poppins:wght@400;500;700&family=Roboto:wght@400;500&family=Ysabeau+SC:wght@400;500&display=swap');
+
+  * {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    background-color: #2D4356;
+
+}
+
+.inner {
+    width: 60%;
+    height: 80%;
+    background-color: #4a8ff8;
+    padding: 20px 60px;
+    display: grid;
+    place-items: center;
+    border-radius: 10px;
+}
+
+.box {
+    width: 80%;
+    height: 80%;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.5);
+}
+
+.number {
+    width: 40px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    cursor: pointer;
+}
+
+.number img {
+    width: 100%;
+}
+
+.text{
+    padding:10px 30px;
+    height: 60%;
+    overflow: auto;
+}
+
+.quotes{
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    padding-left: 40px;
+}
+
+.author{
+    padding-top: 40px;
+    width: 100%;
+    text-align: end;
+    font-family: 'Ysabeau SC', sans-serif;
+
+}
+
+
+.start-quote{
+    font-size: 4rem;
+    color: grey;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.btn{
+    position:absolute;
+    bottom: 0px;
+    background-color: #136cf1;
+    width: 100%;
+    height: 13%;
+    box-sizing: border-box;
+    display: grid;
+    place-items: center;
+    color: white;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    cursor: pointer;
+}
+
+.btn p{
+    font-family: 'Ysabeau SC', sans-serif;
+    font-size: 22px;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .inner{
+        width: 90%;
+    }
+
+    .author{
+        padding-top: 20px;
+    }
+
+
+}
+
+@media screen and (max-width: 425px) {
+
+    .inner{
+        width: 100%;
+        padding: 10px 0px;
+    }
+
+    .box{
+        width: 90%;
+    }
+
+    .quotes{
+        font-size: 23px;
+    }
+
+    .author{
+        padding-top: 5px;
+    }
+}
+
+@media screen and (max-width: 415px) {
+
+    .inner{
+        width: 100%;
+        padding: 10px 0px;
+    }
+
+    .box{
+        width: 90%;
+        height: 70%;
+    }
+
+    .quotes{
+        padding-top: 10px;
+        font-size: 27px;
+    }
+
+    .author{
+        padding-top: 15px;
+    }
+}
+

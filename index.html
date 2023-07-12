@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quotes</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
+    <script src="index.js" defer></script>
+    <script src="https://kit.fontawesome.com/3bf8c869a3.js" crossorigin="anonymous"></script>
+  
+</head>
+<body>
+
+
+    <div class="container">
+        <div class="inner" >
+            <div class="box" data-aos="zoom-in">
+                <p class="number">
+                    <img src="Twitter_logo.png" alt="tweetMe" title="TweetMe" id="tweet" onclick="TweetNow()">
+                </p>
+                
+                 <i class="start-quote fas fa-quote-left"></i>
+
+                <div class="text">
+                    <p id="quotes" class="quotes"></p>
+                    <p id="author" class="author"></p>
+                </div>
+
+                <label class="btn">
+                    <p onclick="getNewQuotes()">New Quotes</p>
+                </label>
+
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
